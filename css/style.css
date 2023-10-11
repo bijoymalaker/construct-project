@@ -1,0 +1,97 @@
+@import url('https://fonts.cdnfonts.com/css/proxima-nova-condensed');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Proxima Nova Condensed', sans-serif;
+}
+:root{
+    --top-bg: #252c30;
+    --font-bcolor: #ffffff;
+    --logo-color: #ffc000;
+    --card-color: #2d3e50;
+}
+
+/* Top part start  */
+.top-part{
+    background-color: var(--top-bg);
+    color: var(--font-bcolor);
+}
+.top-part>div>p>i{
+    color: var(--logo-color);
+}
+/* Top part end  */
+
+/* head part start  */
+.logo-yel{
+    color: var(--logo-color);
+}
+.nav-item .nav-link{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 13px;
+}
+.nav-item .nav-link:hover{
+    color: var(--logo-color);
+}
+/* head part end  */
+
+/* banner part start  */
+#banner-part{
+    background-image: url(../images/banner.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.caro-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.caro-head{
+    font-weight: 700;
+    font-size: 70px;
+}
+.carousel-caption{
+    margin-bottom: 15% !important;
+}
+
+
+/* banner part end  */
+
+/* offer part start  */
+.manual-img{
+    width: 25%;
+    justify-content: center;
+    align-items: center;
+}
+.card-hover{
+    transition: linear 0.2s;
+    -webkit-transition: linear 0.2s;
+    -moz-transition: linear 0.2s;
+    -ms-transition: linear 0.2s;
+    -o-transition: linear 0.2s;
+}
+.card-hover:hover{
+    background-color: var(--card-color);
+    color: var(--font-bcolor);
+}
+.card-title{
+    font-weight: 600;
+}
+/* offer part end  */
+
+/* our services part start */
+#our-services-part .img{
+    width: 50%;
+}
+.our-services{
+    
+}
+/* our services part end */
