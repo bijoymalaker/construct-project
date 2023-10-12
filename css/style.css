@@ -95,6 +95,13 @@ body{
 /* our services part end */
 
 /* counter part start  */
+#counter-part{
+    background-image: url(../images/counter.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30vh;
+}
 /* counter part end  */
 
 /* we-offer part start  */
