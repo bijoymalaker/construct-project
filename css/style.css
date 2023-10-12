@@ -91,7 +91,21 @@ body{
 #our-services-part .img{
     width: 50%;
 }
-.our-services{
-    
-}
+
 /* our services part end */
+
+/* counter part start  */
+/* counter part end  */
+
+/* we-offer part start  */
+#we-offer-part .card-title{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+#we-offer-part .card-text{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+}
+/* we-offer part end  */
