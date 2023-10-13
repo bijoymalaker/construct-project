@@ -35,6 +35,7 @@ body{
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
     font-size: 13px;
+    color: var(--card-color);
 }
 .nav-item .nav-link:hover{
     color: var(--logo-color);
@@ -116,3 +117,32 @@ body{
     font-size: 13px;
 }
 /* we-offer part end  */
+
+/* projects gallary start  */
+/* .pic-sizing{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+.pic-sizing img{
+    width: 25%;
+    background-color: #ffbf00;
+    transition: 0.2s ease-in-out;
+    -webkit-transition: 0.2s ease-in-out;
+    -moz-transition: 0.2s ease-in-out;
+    -ms-transition: 0.2s ease-in-out;
+    -o-transition: 0.2s ease-in-out;
+}
+.pic-sizing img:hover{
+    opacity: 0.5;
+
+    
+}
+/* projects gallary end  */
+
+/* team member part start  */
+.card-icon i{
+    font-size: large;
+}
+/* team member part end  */
