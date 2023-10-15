@@ -15,6 +15,7 @@ body{
     --font-bcolor: #ffffff;
     --logo-color: #ffc000;
     --card-color: #2d3e50;
+    --clint-bg: #f4f4f4;
 }
 
 /* Top part start  */
@@ -119,12 +120,7 @@ body{
 /* we-offer part end  */
 
 /* projects gallary start  */
-/* .pic-sizing{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-} */
+
 .pic-sizing img{
     width: 25%;
     background-color: #ffbf00;
@@ -146,3 +142,33 @@ body{
     font-size: large;
 }
 /* team member part end  */
+
+/* Clints part start  */
+#clint-part {
+    background-color: var(--clint-bg);
+}
+/* Clints part end  */
+
+/* footer part start  */
+.input-custom{
+    border: 0.1px solid var(--card-color);
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    padding: 10px 30px ;
+    box-shadow: 4px 2px 10px rgba(77, 75, 72, 0.507);
+}
+.btn-custom{
+    padding: 10px 20px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    background-color: var(--logo-color);
+    color: #f4f4f4;
+    border: 0;
+}
+/* footer part end  */
